@@ -7,13 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E69B2EF23CE4DF800611F7B /* Skill Elixir.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E69B2EB23CE4DF800611F7B /* Skill Elixir.png */; };
+		7E69B2F023CE4DF800611F7B /* Repair.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E69B2EC23CE4DF800611F7B /* Repair.png */; };
+		7E69B2F123CE4DF800611F7B /* Big Game Hunter.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E69B2ED23CE4DF800611F7B /* Big Game Hunter.png */; };
+		7E69B2F223CE4DF800611F7B /* Masochism.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E69B2EE23CE4DF800611F7B /* Masochism.png */; };
 		7E7064E323C3EACA005CF337 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7064E223C3EACA005CF337 /* AppDelegate.swift */; };
 		7E7064E523C3EACA005CF337 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7064E423C3EACA005CF337 /* ViewController.swift */; };
 		7E7064E823C3EACA005CF337 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E7064E623C3EACA005CF337 /* Main.storyboard */; };
-		7E7064EA23C3EACE005CF337 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E7064E923C3EACE005CF337 /* Assets.xcassets */; };
 		7E7064ED23C3EACE005CF337 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E7064EB23C3EACE005CF337 /* LaunchScreen.storyboard */; };
 		7E7064F823C3EACE005CF337 /* DungeonRaidCloneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7064F723C3EACE005CF337 /* DungeonRaidCloneTests.swift */; };
 		7E70650323C3EACE005CF337 /* DungeonRaidCloneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E70650223C3EACE005CF337 /* DungeonRaidCloneUITests.swift */; };
+		7E8F920C23E0A601007431D3 /* myTiles.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7E8F920A23E0A601007431D3 /* myTiles.sks */; };
+		7E8F920D23E0A601007431D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E8F920B23E0A601007431D3 /* Assets.xcassets */; };
+		7E8F921323E0C45A007431D3 /* LDHealth.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E8F920E23E0C459007431D3 /* LDHealth.png */; };
+		7E8F921423E0C45A007431D3 /* LDSkull.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E8F920F23E0C459007431D3 /* LDSkull.png */; };
+		7E8F921523E0C45A007431D3 /* LDSword.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E8F921023E0C459007431D3 /* LDSword.png */; };
+		7E8F921623E0C45A007431D3 /* LDArmor.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E8F921123E0C459007431D3 /* LDArmor.png */; };
+		7E8F921723E0C45A007431D3 /* LDGold.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E8F921223E0C45A007431D3 /* LDGold.png */; };
+		7E9E79C023D1103F00A813DC /* Skull1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E9E79BE23D1103F00A813DC /* Skull1.mp3 */; };
+		7E9E79C123D1103F00A813DC /* Skull2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E9E79BF23D1103F00A813DC /* Skull2.mp3 */; };
+		7E9E79C523D1132600A813DC /* Sword1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E9E79C223D1132600A813DC /* Sword1.mp3 */; };
+		7E9E79C623D1132600A813DC /* Sword2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E9E79C323D1132600A813DC /* Sword2.mp3 */; };
+		7E9E79C723D1132600A813DC /* Sword3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E9E79C423D1132600A813DC /* Sword3.mp3 */; };
+		7E9E79CA23D1157800A813DC /* Armor2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E9E79C823D1157800A813DC /* Armor2.mp3 */; };
+		7E9E79CB23D1157800A813DC /* Armor1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E9E79C923D1157800A813DC /* Armor1.mp3 */; };
+		7E9E79CD23D1161700A813DC /* Gold1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E9E79CC23D1161700A813DC /* Gold1.mp3 */; };
+		7E9E79CF23D116A500A813DC /* HP1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E9E79CE23D116A500A813DC /* HP1.mp3 */; };
+		7E9E79D123D14F5E00A813DC /* Armor3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E9E79D023D14F5E00A813DC /* Armor3.mp3 */; };
+		7E9E79D323D14FD400A813DC /* Armor4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E9E79D223D14FD400A813DC /* Armor4.mp3 */; };
+		7E9E79D523D14FD900A813DC /* HP2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E9E79D423D14FD900A813DC /* HP2.mp3 */; };
+		7E9E79D723D1505F00A813DC /* Gold2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E9E79D623D1505F00A813DC /* Gold2.mp3 */; };
+		7E9E79D923D1509000A813DC /* Gold3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E9E79D823D1509000A813DC /* Gold3.mp3 */; };
+		7E9E79DC23D150EA00A813DC /* HP4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E9E79DA23D150EA00A813DC /* HP4.mp3 */; };
+		7E9E79DD23D150EA00A813DC /* HP3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E9E79DB23D150EA00A813DC /* HP3.mp3 */; };
+		7E9E79F723D17CA900A813DC /* Armor.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E9E79F223D17CA800A813DC /* Armor.png */; };
+		7E9E79F823D17CA900A813DC /* Sword.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E9E79F323D17CA800A813DC /* Sword.png */; };
+		7E9E79F923D17CA900A813DC /* Health.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E9E79F423D17CA800A813DC /* Health.png */; };
+		7E9E79FA23D17CA900A813DC /* Gold.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E9E79F523D17CA800A813DC /* Gold.png */; };
+		7E9E79FB23D17CA900A813DC /* Skull.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E9E79F623D17CA800A813DC /* Skull.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,11 +65,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7E69B2EB23CE4DF800611F7B /* Skill Elixir.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Skill Elixir.png"; path = "../../../DungeonRaidCloneImages/Skills/Skill Elixir.png"; sourceTree = "<group>"; };
+		7E69B2EC23CE4DF800611F7B /* Repair.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Repair.png; path = ../../../DungeonRaidCloneImages/Skills/Repair.png; sourceTree = "<group>"; };
+		7E69B2ED23CE4DF800611F7B /* Big Game Hunter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Big Game Hunter.png"; path = "../../../DungeonRaidCloneImages/Skills/Big Game Hunter.png"; sourceTree = "<group>"; };
+		7E69B2EE23CE4DF800611F7B /* Masochism.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Masochism.png; path = ../../../DungeonRaidCloneImages/Skills/Masochism.png; sourceTree = "<group>"; };
 		7E7064DF23C3EACA005CF337 /* DungeonRaidClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DungeonRaidClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E7064E223C3EACA005CF337 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7E7064E423C3EACA005CF337 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7E7064E723C3EACA005CF337 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		7E7064E923C3EACE005CF337 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7E7064EC23C3EACE005CF337 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7E7064EE23C3EACE005CF337 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7E7064F323C3EACE005CF337 /* DungeonRaidCloneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DungeonRaidCloneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +81,34 @@
 		7E7064FE23C3EACE005CF337 /* DungeonRaidCloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DungeonRaidCloneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E70650223C3EACE005CF337 /* DungeonRaidCloneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DungeonRaidCloneUITests.swift; sourceTree = "<group>"; };
 		7E70650423C3EACE005CF337 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E8F920A23E0A601007431D3 /* myTiles.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = myTiles.sks; sourceTree = "<group>"; };
+		7E8F920B23E0A601007431D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7E8F920E23E0C459007431D3 /* LDHealth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LDHealth.png; sourceTree = "<group>"; };
+		7E8F920F23E0C459007431D3 /* LDSkull.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LDSkull.png; sourceTree = "<group>"; };
+		7E8F921023E0C459007431D3 /* LDSword.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LDSword.png; sourceTree = "<group>"; };
+		7E8F921123E0C459007431D3 /* LDArmor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LDArmor.png; sourceTree = "<group>"; };
+		7E8F921223E0C45A007431D3 /* LDGold.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LDGold.png; sourceTree = "<group>"; };
+		7E9E79BE23D1103F00A813DC /* Skull1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Skull1.mp3; sourceTree = "<group>"; };
+		7E9E79BF23D1103F00A813DC /* Skull2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Skull2.mp3; sourceTree = "<group>"; };
+		7E9E79C223D1132600A813DC /* Sword1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Sword1.mp3; sourceTree = "<group>"; };
+		7E9E79C323D1132600A813DC /* Sword2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Sword2.mp3; sourceTree = "<group>"; };
+		7E9E79C423D1132600A813DC /* Sword3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Sword3.mp3; sourceTree = "<group>"; };
+		7E9E79C823D1157800A813DC /* Armor2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Armor2.mp3; sourceTree = "<group>"; };
+		7E9E79C923D1157800A813DC /* Armor1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Armor1.mp3; sourceTree = "<group>"; };
+		7E9E79CC23D1161700A813DC /* Gold1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Gold1.mp3; sourceTree = "<group>"; };
+		7E9E79CE23D116A500A813DC /* HP1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = HP1.mp3; sourceTree = "<group>"; };
+		7E9E79D023D14F5E00A813DC /* Armor3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Armor3.mp3; sourceTree = "<group>"; };
+		7E9E79D223D14FD400A813DC /* Armor4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Armor4.mp3; sourceTree = "<group>"; };
+		7E9E79D423D14FD900A813DC /* HP2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = HP2.mp3; sourceTree = "<group>"; };
+		7E9E79D623D1505F00A813DC /* Gold2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Gold2.mp3; sourceTree = "<group>"; };
+		7E9E79D823D1509000A813DC /* Gold3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Gold3.mp3; sourceTree = "<group>"; };
+		7E9E79DA23D150EA00A813DC /* HP4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = HP4.mp3; sourceTree = "<group>"; };
+		7E9E79DB23D150EA00A813DC /* HP3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = HP3.mp3; sourceTree = "<group>"; };
+		7E9E79F223D17CA800A813DC /* Armor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Armor.png; path = ../../../DungeonRaidCloneImages/Icons/LD/Armor.png; sourceTree = "<group>"; };
+		7E9E79F323D17CA800A813DC /* Sword.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Sword.png; path = ../../../DungeonRaidCloneImages/Icons/LD/Sword.png; sourceTree = "<group>"; };
+		7E9E79F423D17CA800A813DC /* Health.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Health.png; path = ../../../DungeonRaidCloneImages/Icons/LD/Health.png; sourceTree = "<group>"; };
+		7E9E79F523D17CA800A813DC /* Gold.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Gold.png; path = ../../../DungeonRaidCloneImages/Icons/LD/Gold.png; sourceTree = "<group>"; };
+		7E9E79F623D17CA800A813DC /* Skull.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Skull.png; path = ../../../DungeonRaidCloneImages/Icons/LD/Skull.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,8 +161,39 @@
 			children = (
 				7E7064E223C3EACA005CF337 /* AppDelegate.swift */,
 				7E7064E423C3EACA005CF337 /* ViewController.swift */,
+				7E8F920A23E0A601007431D3 /* myTiles.sks */,
+				7E8F920B23E0A601007431D3 /* Assets.xcassets */,
 				7E7064E623C3EACA005CF337 /* Main.storyboard */,
-				7E7064E923C3EACE005CF337 /* Assets.xcassets */,
+				7E8F921123E0C459007431D3 /* LDArmor.png */,
+				7E8F921223E0C45A007431D3 /* LDGold.png */,
+				7E8F920E23E0C459007431D3 /* LDHealth.png */,
+				7E8F920F23E0C459007431D3 /* LDSkull.png */,
+				7E8F921023E0C459007431D3 /* LDSword.png */,
+				7E9E79F223D17CA800A813DC /* Armor.png */,
+				7E9E79F523D17CA800A813DC /* Gold.png */,
+				7E9E79F423D17CA800A813DC /* Health.png */,
+				7E9E79F623D17CA800A813DC /* Skull.png */,
+				7E9E79F323D17CA800A813DC /* Sword.png */,
+				7E9E79CC23D1161700A813DC /* Gold1.mp3 */,
+				7E9E79D623D1505F00A813DC /* Gold2.mp3 */,
+				7E9E79D823D1509000A813DC /* Gold3.mp3 */,
+				7E9E79C923D1157800A813DC /* Armor1.mp3 */,
+				7E9E79C823D1157800A813DC /* Armor2.mp3 */,
+				7E9E79D023D14F5E00A813DC /* Armor3.mp3 */,
+				7E9E79D223D14FD400A813DC /* Armor4.mp3 */,
+				7E9E79C223D1132600A813DC /* Sword1.mp3 */,
+				7E9E79C323D1132600A813DC /* Sword2.mp3 */,
+				7E9E79C423D1132600A813DC /* Sword3.mp3 */,
+				7E9E79CE23D116A500A813DC /* HP1.mp3 */,
+				7E9E79D423D14FD900A813DC /* HP2.mp3 */,
+				7E9E79DB23D150EA00A813DC /* HP3.mp3 */,
+				7E9E79DA23D150EA00A813DC /* HP4.mp3 */,
+				7E9E79BE23D1103F00A813DC /* Skull1.mp3 */,
+				7E9E79BF23D1103F00A813DC /* Skull2.mp3 */,
+				7E69B2ED23CE4DF800611F7B /* Big Game Hunter.png */,
+				7E69B2EE23CE4DF800611F7B /* Masochism.png */,
+				7E69B2EC23CE4DF800611F7B /* Repair.png */,
+				7E69B2EB23CE4DF800611F7B /* Skill Elixir.png */,
 				7E7064EB23C3EACE005CF337 /* LaunchScreen.storyboard */,
 				7E7064EE23C3EACE005CF337 /* Info.plist */,
 			);
@@ -193,13 +286,16 @@
 				TargetAttributes = {
 					7E7064DE23C3EACA005CF337 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1130;
 					};
 					7E7064F223C3EACE005CF337 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1130;
 						TestTargetID = 7E7064DE23C3EACA005CF337;
 					};
 					7E7064FD23C3EACE005CF337 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1130;
 						TestTargetID = 7E7064DE23C3EACA005CF337;
 					};
 				};
@@ -229,8 +325,39 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E8F921423E0C45A007431D3 /* LDSkull.png in Resources */,
+				7E9E79FA23D17CA900A813DC /* Gold.png in Resources */,
+				7E8F921323E0C45A007431D3 /* LDHealth.png in Resources */,
+				7E9E79D923D1509000A813DC /* Gold3.mp3 in Resources */,
+				7E9E79C723D1132600A813DC /* Sword3.mp3 in Resources */,
+				7E9E79C023D1103F00A813DC /* Skull1.mp3 in Resources */,
+				7E9E79DC23D150EA00A813DC /* HP4.mp3 in Resources */,
+				7E8F921723E0C45A007431D3 /* LDGold.png in Resources */,
+				7E9E79D323D14FD400A813DC /* Armor4.mp3 in Resources */,
+				7E9E79F723D17CA900A813DC /* Armor.png in Resources */,
+				7E9E79FB23D17CA900A813DC /* Skull.png in Resources */,
+				7E69B2F223CE4DF800611F7B /* Masochism.png in Resources */,
+				7E69B2F023CE4DF800611F7B /* Repair.png in Resources */,
+				7E9E79CD23D1161700A813DC /* Gold1.mp3 in Resources */,
+				7E8F921623E0C45A007431D3 /* LDArmor.png in Resources */,
 				7E7064ED23C3EACE005CF337 /* LaunchScreen.storyboard in Resources */,
-				7E7064EA23C3EACE005CF337 /* Assets.xcassets in Resources */,
+				7E9E79CB23D1157800A813DC /* Armor1.mp3 in Resources */,
+				7E9E79C123D1103F00A813DC /* Skull2.mp3 in Resources */,
+				7E9E79C523D1132600A813DC /* Sword1.mp3 in Resources */,
+				7E9E79CF23D116A500A813DC /* HP1.mp3 in Resources */,
+				7E9E79C623D1132600A813DC /* Sword2.mp3 in Resources */,
+				7E9E79D523D14FD900A813DC /* HP2.mp3 in Resources */,
+				7E9E79CA23D1157800A813DC /* Armor2.mp3 in Resources */,
+				7E9E79D723D1505F00A813DC /* Gold2.mp3 in Resources */,
+				7E69B2EF23CE4DF800611F7B /* Skill Elixir.png in Resources */,
+				7E9E79D123D14F5E00A813DC /* Armor3.mp3 in Resources */,
+				7E9E79DD23D150EA00A813DC /* HP3.mp3 in Resources */,
+				7E9E79F923D17CA900A813DC /* Health.png in Resources */,
+				7E8F920C23E0A601007431D3 /* myTiles.sks in Resources */,
+				7E9E79F823D17CA900A813DC /* Sword.png in Resources */,
+				7E8F920D23E0A601007431D3 /* Assets.xcassets in Resources */,
+				7E8F921523E0C45A007431D3 /* LDSword.png in Resources */,
+				7E69B2F123CE4DF800611F7B /* Big Game Hunter.png in Resources */,
 				7E7064E823C3EACA005CF337 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -432,16 +559,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DCPZJTLLA6;
 				INFOPLIST_FILE = DungeonRaidClone/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Krischel.DungeonRaidClone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -450,16 +580,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DCPZJTLLA6;
 				INFOPLIST_FILE = DungeonRaidClone/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Krischel.DungeonRaidClone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -479,7 +612,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Krischel.DungeonRaidCloneTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DungeonRaidClone.app/DungeonRaidClone";
 			};
@@ -500,7 +633,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Krischel.DungeonRaidCloneTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DungeonRaidClone.app/DungeonRaidClone";
 			};
@@ -520,7 +653,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Krischel.DungeonRaidCloneUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = DungeonRaidClone;
 			};
@@ -540,7 +673,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Krischel.DungeonRaidCloneUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = DungeonRaidClone;
 			};
